@@ -13,9 +13,11 @@ linux-firmware-i915
 linux-lts
 lvm2
 nftables
+nginx
 openssh
 openssh-server
 openssl
+shellcheck
 vim
 wireguard-tools
 wireguard-tools-openrc
