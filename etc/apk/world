@@ -17,3 +17,4 @@ openssh-server
 openssl
 vim
 wireguard-tools
+wireguard-tools-openrc

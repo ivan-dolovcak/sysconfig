@@ -66,15 +66,31 @@ table inet filter {
 
         tcp dport 22 accept \
         comment "Allow SSH"
+
+        udp dport 51820 accept \
+        comment "Allow WireGuard"
 	}
 
 	chain forward {
 		type filter hook forward priority 0; policy drop;
+
+        iifname "wg0" oifname "eth0" ip daddr 192.168.1.0/24 accept \
+        comment "WireGuard to LAN"
+        
+        iifname "eth0" oifname "wg0" ip saddr 192.168.1.0/24 accept \
+        comment "LAN to WireGuard"
 	}
 
 	chain output {
 		type filter hook output priority 0; policy accept;
 	}
+}
+
+table ip nat {
+    chain postrouting {
+        type nat hook postrouting priority 100;
+        oifname "eth0" masquerade
+    }
 }
 
 # The state of stateful objects saved on the nftables service stop.
