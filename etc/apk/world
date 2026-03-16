@@ -3,6 +3,7 @@ blkid
 busybox-mdev-openrc
 chrony
 cryptsetup
+curl
 doas
 dosfstools
 e2fsprogs
