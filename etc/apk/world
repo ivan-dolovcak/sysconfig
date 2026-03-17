@@ -1,3 +1,4 @@
+acme.sh
 alpine-base
 blkid
 busybox-mdev-openrc
@@ -7,8 +8,10 @@ curl
 doas
 dosfstools
 e2fsprogs
+ffmpeg
 git
 grub-efi
+lighttpd
 linux-firmware-i915
 linux-lts
 lvm2
@@ -18,6 +21,7 @@ openssh
 openssh-server
 openssl
 shellcheck
+v4l-utils
 vim
 wireguard-tools
 wireguard-tools-openrc
