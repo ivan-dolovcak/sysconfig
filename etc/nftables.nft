@@ -69,6 +69,12 @@ table inet filter {
 
         udp dport 51820 accept \
         comment "Allow WireGuard"
+
+        tcp dport 80 accept \
+        comment "Allow HTTP"
+
+        tcp dport 443 accept \
+        comment "Allow HTTPS"
 	}
 
 	chain forward {
