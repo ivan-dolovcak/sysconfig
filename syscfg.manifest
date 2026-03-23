@@ -5,5 +5,10 @@ f	644	0	0	/etc/dropbear/initramfs/dropbear.conf
 d	755	0	0	/etc/initramfs-tools
 d	755	0	0	/etc/initramfs-tools/conf.d
 f	644	0	0	/etc/initramfs-tools/conf.d/network
+d	755	0	0	/etc/initramfs-tools/hooks
+f	755	0	0	/etc/initramfs-tools/hooks/ethtool
+d	755	0	0	/etc/initramfs-tools/scripts
+d	755	0	0	/etc/initramfs-tools/scripts/local-top
+f	755	0	0	/etc/initramfs-tools/scripts/local-top/10-wol-enable
 d	755	0	0	/etc/network
 f	644	0	0	/etc/network/interfaces

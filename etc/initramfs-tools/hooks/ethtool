@@ -1,0 +1,7 @@
+#!/bin/sh
+# copy ethtol binary
+# used in: /etc/initramfs-tools/scripts/local-top/10-wol-enable
+set -e
+
+. /usr/share/initramfs-tools/hook-functions
+copy_exec /usr/sbin/ethtool /usr/sbin

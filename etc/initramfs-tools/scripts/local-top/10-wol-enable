@@ -1,0 +1,11 @@
+#!/bin/sh
+
+IFACE="enp3s0"
+
+# quietly skip if the interface is not present yet
+[ -d "/sys/class/net/$IFACE" ] || exit 0
+
+# ignore failure so boot does not break if driver/device is not ready
+/usr/sbin/ethtool -s "$IFACE" wol g >/dev/null 2>&1 || true
+
+exit 0
