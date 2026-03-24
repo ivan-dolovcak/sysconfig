@@ -1,0 +1,18 @@
+#!/bin/sh
+
+HOST="$(hostname)"
+IP="$(hostname -I | awk '{print $1}')"
+UPTIME="$(uptime -p | sed 's/^up //')"
+MEM_AVAILABLE="$(free -h | awk '/^Mem:/ {print $7}')B"
+MEM_TOTAL="$(free -h | awk '/^Mem:/ {print $2}')B"
+MEM_USED="$(free -h | awk '/^Mem:/ {print $3}')B"
+
+echo
+echo Welcome to Debian Linux!
+echo
+echo "Host:\t$HOST ($IP)"
+echo "Uptime:\t$UPTIME"
+echo "RAM:\t$MEM_USED used, $MEM_AVAILABLE available, $MEM_TOTAL total"
+echo
+df -h /
+echo
