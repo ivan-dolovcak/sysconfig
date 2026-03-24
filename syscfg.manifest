@@ -1,4 +1,6 @@
 d	755	0	0	/etc
+d	755	0	0	/etc/cron.d
+f	644	0	0	/etc/cron.d/power-schedule
 d	755	0	0	/etc/dropbear
 d	755	0	0	/etc/dropbear/initramfs
 f	644	0	0	/etc/dropbear/initramfs/dropbear.conf
@@ -12,3 +14,7 @@ d	755	0	0	/etc/initramfs-tools/scripts/local-top
 f	755	0	0	/etc/initramfs-tools/scripts/local-top/10-wol-enable
 d	755	0	0	/etc/network
 f	644	0	0	/etc/network/interfaces
+d	755	0	0	/home
+d	700	1000	1000	/home/sysadmin
+d	775	1000	1000	/home/sysadmin/scripts
+f	775	1000	1000	/home/sysadmin/scripts/power-schedule.sh
