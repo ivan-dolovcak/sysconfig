@@ -1,0 +1,2 @@
+sda3_crypt UUID=e2ac083b-98ee-4490-bfc2-0b2f2f4f5f51 none luks,discard,x-initrd.attach
+storage_crypt UUID=bd86916f-5f3d-400a-9344-02c46af321d3 /root/keys/storage_crypt.key luks
