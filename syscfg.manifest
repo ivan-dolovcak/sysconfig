@@ -16,11 +16,16 @@ d	755	0	0	/etc/initramfs-tools/scripts/local-top
 f	755	0	0	/etc/initramfs-tools/scripts/local-top/10-wol-enable
 d	755	0	0	/etc/mdadm
 f	644	0	0	/etc/mdadm/mdadm.conf
+f	644	0	0	/etc/minidlna.conf
 f	644	0	0	/etc/motd
 d	755	0	0	/etc/network
 f	644	0	0	/etc/network/interfaces
 d	755	0	0	/etc/ssh
 f	644	0	0	/etc/ssh/sshd_config
+d	755	0	0	/etc/systemd
+d	755	0	0	/etc/systemd/system
+d	755	0	0	/etc/systemd/system/minidlna.service.d
+f	644	0	0	/etc/systemd/system/minidlna.service.d/override.conf
 d	755	0	0	/etc/update-motd.d
 f	755	0	0	/etc/update-motd.d/10-header
 d	755	0	0	/home
