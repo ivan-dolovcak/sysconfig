@@ -8,8 +8,10 @@ d	755	0	0	/etc/nginx
 d	755	0	0	/etc/nginx/http.d
 f	644	0	0	/etc/nginx/http.d/00-default.conf
 f	644	0	0	/etc/nginx/http.d/10-upstreams.conf
-f	644	0	0	/etc/nginx/http.d/20-landing.conf
-f	644	0	0	/etc/nginx/http.d/proxy-common.inc
+f	644	0	0	/etc/nginx/http.d/50-main.conf
+d	755	0	0	/etc/nginx/http.d/snippets
+f	644	0	0	/etc/nginx/http.d/snippets/proxy-common.inc
+f	644	0	0	/etc/nginx/http.d/snippets/ssl-common.inc
 d	755	0	0	/etc/ssh
 f	644	0	0	/etc/ssh/sshd_config
 f	644	0	0	/etc/sysctl.conf

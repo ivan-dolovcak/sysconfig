@@ -6,5 +6,5 @@ proxy_set_header X-Forwarded-Proto $scheme;
 # failover:
 proxy_intercept_errors on;
 proxy_connect_timeout 2s;
-proxy_read_timeout 5s;
-proxy_send_timeout 5s;
+proxy_read_timeout 2s;
+proxy_send_timeout 2s;
