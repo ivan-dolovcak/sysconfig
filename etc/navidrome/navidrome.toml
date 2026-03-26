@@ -1,0 +1,7 @@
+DataFolder = "/var/lib/navidrome"
+MusicFolder = "/srv/media/navidrome/main"
+BaseUrl = "/media/navidrome"
+AutoImportPlaylists = false
+CoverArtPriority = "embedded, cover.*, folder.*, front.*" 
+EnableExternalServices = false
+EnableSharing = true

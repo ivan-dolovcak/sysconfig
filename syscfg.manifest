@@ -18,6 +18,8 @@ d	755	0	0	/etc/mdadm
 f	644	0	0	/etc/mdadm/mdadm.conf
 f	644	0	0	/etc/minidlna.conf
 f	644	0	0	/etc/motd
+d	755	999	989	/etc/navidrome
+f	644	999	989	/etc/navidrome/navidrome.toml
 d	755	0	0	/etc/network
 f	644	0	0	/etc/network/interfaces
 d	755	0	0	/etc/nginx
