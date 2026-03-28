@@ -75,6 +75,9 @@ table inet filter {
 
         tcp dport 443 accept \
         comment "Allow HTTPS"
+
+        tcp dport 4443 accept \
+        comment "Allow ntfy"
 	}
 
 	chain forward {

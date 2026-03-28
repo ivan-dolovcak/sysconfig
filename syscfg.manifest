@@ -9,6 +9,7 @@ d	755	0	0	/etc/nginx/http.d
 f	644	0	0	/etc/nginx/http.d/00-default.conf
 f	644	0	0	/etc/nginx/http.d/10-upstreams.conf
 f	644	0	0	/etc/nginx/http.d/50-main.conf
+f	644	0	0	/etc/nginx/http.d/60-ntfy.conf
 d	755	0	0	/etc/nginx/http.d/routes
 f	644	0	0	/etc/nginx/http.d/routes/navidrome.conf
 f	644	0	0	/etc/nginx/http.d/routes/qbittorrent.conf
