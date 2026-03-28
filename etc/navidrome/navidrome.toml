@@ -5,3 +5,4 @@ AutoImportPlaylists = false
 CoverArtPriority = "embedded, cover.*, folder.*, front.*" 
 EnableExternalServices = false
 EnableSharing = true
+EnableDownloads = false
