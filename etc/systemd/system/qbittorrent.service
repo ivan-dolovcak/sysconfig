@@ -1,0 +1,13 @@
+[Unit]
+Description=qBittorrent Client
+After=network.target
+
+[Service]
+User=qbt
+Group=qbt
+Type=simple
+ExecStart=/usr/bin/qbittorrent-nox --webui-port=8088
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

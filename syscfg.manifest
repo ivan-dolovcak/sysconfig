@@ -31,6 +31,7 @@ d	755	0	0	/etc/systemd
 d	755	0	0	/etc/systemd/system
 d	755	0	0	/etc/systemd/system/minidlna.service.d
 f	644	0	0	/etc/systemd/system/minidlna.service.d/override.conf
+f	644	0	0	/etc/systemd/system/qbittorrent.service
 f	644	0	0	/etc/systemd/system/slskd.service
 d	755	0	0	/etc/systemd/system/syncthing@syncthing.service.d
 f	644	0	0	/etc/systemd/system/syncthing@syncthing.service.d/override.conf
