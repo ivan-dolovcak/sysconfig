@@ -25,6 +25,8 @@ f	644	0	0	/etc/network/interfaces
 d	755	0	0	/etc/nginx
 d	755	0	0	/etc/nginx/sites-available
 f	644	0	0	/etc/nginx/sites-available/home
+d	755	0	0	/etc/ntfy
+f	644	0	0	/etc/ntfy/server.yml
 d	755	0	0	/etc/ssh
 f	644	0	0	/etc/ssh/sshd_config
 d	755	0	0	/etc/systemd

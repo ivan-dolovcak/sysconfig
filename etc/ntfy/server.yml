@@ -1,0 +1,7 @@
+base-url: "https://dolovcak.duckdns.org"
+listen-http: ":8090"
+cache-file: "/var/cache/ntfy/cache.db"
+auth-file: "/var/cache/ntfy/user.db"
+auth-default-access: "deny-all"
+behind-proxy: true
+web-root: "/" 
